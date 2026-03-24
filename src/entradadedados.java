@@ -27,6 +27,7 @@ public class entradadedados {
         x = sc.next().charAt(0);
         System.out.println("vc digitou: " + x);
 
+         //exemplo de entrada de dados (como ler ate a quebra de linha ) 
         String x;
         int y;
         double z;
@@ -45,5 +46,34 @@ public class entradadedados {
     }
 
 
+
+}
+   
+import java.util.Scanner;
+public class entradadedados{
+
+    public static void main (String[]args){
+
+        Scanner sc = new Scanner (System.in);
+
+        int x;
+        String s1, s2, s3;
+        x = sc.nextInt();
+        sc.nextLine();      (quebrando o buffer da leitura)
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        s3 = sc.nextLine();
+
+        System.out.println("entrada de dados");
+        System.out.println(x);
+        
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
+
+
+        sc.close();
+
+    }
 
 }*/
