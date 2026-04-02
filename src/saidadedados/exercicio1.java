@@ -1,17 +1,8 @@
-public class saidadedados {
-    public static void main(String[] args)  {
-     /*   int j = 32;
-       String nome = "maria";
-       int idade = 31;
-       double renda = 4000.0;
+package saidadedados;
 
-       double x = 10.25784 ; 
-        System.out.println(j);
-        System.out.println(x);
-        System.out.printf("%.2f%n", x);
-        System.out.printf("%.4f%n", x);
-        System.out.printf("%s tem %d anos e ganha r$ %.2f reais%n", nome, idade, renda);*/
-        
+public class exercicio1 {
+    public static void main(String[] args)  {
+    
        String product1 = "Computer";
         String product2 = "Office desk";
         int age = 30;
@@ -32,5 +23,4 @@ public class saidadedados {
             product1, price1, product2, price2, age, code, gender, measure, measure, measure
         );
     }
-    
 }

@@ -1,7 +1,9 @@
-/*import java.util.Scanner;
+package estruturacondicional;
 
-public class condicionalternaria {
-    public static void main(String[] args) {
+import java.util.Scanner;
+
+public class CondicionalTernaria {
+     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
      
            int x = 10;
@@ -9,7 +11,7 @@ public class condicionalternaria {
         System.out.println(resultado);
         
         
-        double preco = scanner.nextDouble();
+        double preco = sc.nextDouble();
         double desconto ;
         if (preco < 100){
             desconto = preco * 0.1;
@@ -18,11 +20,9 @@ public class condicionalternaria {
         }
         System.out.println("Desconto: " + desconto);
 
-        double preco = 34.5;
-        double desconto = (preco < 20) ? preco * 0.1 : preco * 0.5;   
-        System.out.println("Desconto: " + desconto);
+       
         sc.close();
 
     }
-}*/
- 
+}
+

@@ -16,7 +16,7 @@ public class ex3 {
             alcool = alcool + 1;
         }
         else if(tipo == 2){
-            gasolina = gasolina = 1;
+            gasolina = gasolina + 1;
         }
         else if(tipo == 3){
             diesel = diesel + 1;
